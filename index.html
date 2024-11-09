@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayani Welfare Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <center>
+    <h3>Saylani Vocational & Technical Training</h3>
+    <h4>Saylani Vocational & Technical Training Courses are now open, hurry up apply for brighter future!</h4>
+    <img src="./imgs/Capture.jpg" alt="intro image"> <br/>
+    <table cellspacing="10">
+        <tr>
+            <td class="child1"> <a href="" style="color:beige;" >Registration </a> </td>
+            <td class="child1"> <a href="" style="color:beige;" > Download ID card</a></td>
+            <td class="child1"> <a href="" style="color:beige;" > Results </a> </td>
+        </tr>
+    </table>
+  </center>  
+<!-- form starting from here -->
+   <form action="">
+    <center>
+    <table class="table2" cellspacing="20px">
+        <tr>
+            <th><label for="City">Select City</label></th>
+            
+            <th><label for="Course">Select Course or Event</label></th>
+
+        </tr>
+        <tr>
+        <td >
+            <select class="select1"  id="City">
+             <option value="select_city">Select City</option>   
+             <option value="KARACHI">KARACHI</option>
+             <option value="GUJRANWALA">GUJRANWALA</option>
+             <option value="ISLAMABAD">ISLAMABAD</option>
+             <option value=" LAHORE"> LAHORE</option>             
+            </select>
+            </td>
+            <td>
+                <select class="select1"  id="Course">
+                    <option value="select_Course" selected> Select Course</option>   
+                    <option value="Web-Development">Web Development</option>
+                    <option value="Python">Python</option>
+                    <option value="Flutter">Flutter</option>             
+                   </select>
+            </td>
+        </tr>
+        <tr>
+            <th><label for="campus">Select Campus</label></th>
+            <th><label for="Class">Select Class Preference</label></th>
+
+        </tr>
+        <tr>
+        <td >
+            <select class="select1"  id="campus">
+             <option value="Select Campus" selected>Select Campus</option>   
+             <option value="Paposh">Paposh</option>
+             <option value="Gulshan">Gulshan</option>
+                    
+            </select>
+            </td>
+            <td>
+                <select class="select1"  id="Class">
+                    <option value="Select class preference" selected> Select Class Preference</option>   
+                    <option value="Weekends">Weekends</option>
+                    <option value="Weekdays">Weekdays</option>             
+                   </select>
+            </td>
+        </tr>
+        <tr>
+            <th><label for="name">Your Name</label></th>
+            <th><label for="father-name">Fathers Name</label></th>
+
+        </tr>
+        <td>
+            <input  id="name" class="input1"  type="text" placeholder="Your Name">
+            </td>
+            <td>
+                <input  id="father-name" class="input1"  type="text" placeholder=" Fathers Name">
+            </td>
+
+            <tr>
+                <th><label for="email">Email</label></th>
+                <th><label for="number">Phone</label></th>
+            </tr>
+            <tr>
+                <td >
+                    <input  id="email" class="input1"  type="email" placeholder="Email">
+                    </td>
+                    <td>
+                        <input  id="number" class="input1" type="number" placeholder=" Phone">
+                    </td>
+            </tr>
+            
+            <tr>
+                <th><label for="cnic">CNIC</label></th>
+                <th><label for="fathers-cnic">Fathers CNIC(Optional)</label></th>
+            </tr>
+            <tr>
+                <td >
+                    <input  id="cnic" class="input1"  type="number" placeholder="CNIC">
+                    </td>
+                    <td>
+                        <input  id="fathers-cnic" class="input1"  type="number" placeholder=" Fathers-cnic">
+                    </td>
+            </tr>
+
+            <tr>
+                <th><label for="DOB">Date of birth</label></th>
+                <th><label for="Gndrf">Gender</label></th>
+            </tr>
+
+            <tr>
+                <td >
+                    <input id="DOB" class="input1"  type="date">
+                    </td>
+                    <td>
+                        <input class="input1" type="radio" id="Gndrm" name="Gender" value="Male">
+                        <label for="Gndrm"> Male</label>
+                        <input  class="input1" type="radio" id="Gndrf" name="Gender" value="Female">
+                        <label for="Gndrf">Female</label>
+                    </td>
+
+            </tr>
+
+
+          
+            <tr>
+                    <th><label for="Address">Address</label></th>
+            </tr>
+            <tr>
+                <td>
+                    <input  id="Address"  class="input1" type="text">
+                </td>
+            </tr>
+
+        </tr>
+        <tr>
+                <th><label for="LstQualf">Last-Qualification</label></th>
+        </tr>
+        <tr>
+            <td>
+               <select class="select1" name="Last-Qualification" id="LstQualf">
+               <option value="Last-Qualification" selected>Last Qualification</option>
+               <option value="Masters">Masters</option>
+               <option value="intermidiate">intermidiate</option>
+               <option value="'Matriculation">Matriculation</option>
+            </select>
+            </td>
+        </tr>
+         
+        <tr>
+            <th><label for="Question">Do You Have A Laptop?</label></th>
+         </tr>
+        
+         <tr>
+           <td>
+            <input id="Question"  class="input1" type="text">
+           </td>
+         </tr>
+         
+         <tr>
+         <th><label for="image">Upload Your Image</label></th>
+         </tr>
+         <tr>
+           <td>
+            <input id="image" class="input1" type="file">
+           </td>
+
+            <td>
+               With white or blue background <br/>
+               File size must be less than 1MB <br/>
+               File type: jpg, jpeg, png <br/>
+               Upload your recent passport size picture <br/>
+               Your Face should be clearly visible without any Glasses 
+            </td>
+         </tr>
+    </table>
+    </center>
+    <br/>
+    <hr/>
+    <ol>
+        <li>
+            I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</li>
+         <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>
+         <li>Defiance will render my admission canceled at any point in time</li>
+         <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+         <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+        </ol>
+       <center><button onclick="getValue()" style="color: beige;" class="submit" class="submit1" type="submit">Submit</button></center> </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="app.js">
+</script>
+</body>
+</html>
