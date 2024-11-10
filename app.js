@@ -13,6 +13,7 @@ function getValue(){
     var address= document.getElementById('Address')
     var qualification=document.getElementById("LstQualf")
     var laptopQ=document.getElementById('Question')
+    var gender= document.getElementsByName('Gender')
 
     console.log("CITY"+" "+city.value)
     console.log("COURSE"+" "+course.value)
@@ -25,6 +26,7 @@ function getValue(){
     console.log("CNIC"+" "+cnic.value)
     console.log("FATHER CNIC"+" "+father_cnic.value)
     console.log("DATE OF BIRTH"+" "+dob.value)
+    console.log("Gender"+" "+gender.value)
     console.log("ADDRESS"+" "+address.value)
     console.log("QUALIFICATION"+" "+qualification.value)
     console.log("DO YOU HAVE LAPTOP?"+" "+laptopQ.value)
